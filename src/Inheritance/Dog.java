@@ -18,7 +18,7 @@ public class Dog extends Animal {
 	{
 		System.out.println("barking...");
 	}
-	
+// method overriding	
 	public void eat()
 	{
 		System.out.println("eating bones...");

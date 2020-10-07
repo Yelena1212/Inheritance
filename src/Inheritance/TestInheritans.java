@@ -9,6 +9,8 @@ public class TestInheritans {
 // method overriding
 		dog.eat();
 		System.out.println("Dog type is" + dog.getType());
+		System.out.println("Dog type is" + dog.getName());
+
 		
 		
 		
