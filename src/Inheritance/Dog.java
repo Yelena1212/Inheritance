@@ -7,7 +7,7 @@ public class Dog extends Animal {
 // constructor
 	public Dog(String aType, String aName, String aBreed)
 	{
-		super(aType);
+		super(aType);  //constructor of the superclass - Animal
 		name = aName;
 		breed = aBreed;
 		

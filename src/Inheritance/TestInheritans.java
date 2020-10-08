@@ -14,9 +14,14 @@ public class TestInheritans {
 		
 		
 		
-		Animal animal = new Dog("Very big dog", "Rex", "Labrador");
-		animal.eat();
-		((Dog)animal).bark();
+		Animal ani = new Dog("Very big dog", "Rex", "Labrador");
+		ani.eat();
+		((Dog)ani).bark();
+		((Dog)ani).getName();
+
+		
+		ani = new Cat("Siam");
+				ani.eat();
 
 	}
 
